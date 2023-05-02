@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "moduleResolution": "nodenext",
+  },
+  "exclude": ["node_modules"],
+  "include": ["*.mts", " index.test.ts"],
+  "typeRoots": [ "./node_modules/@types/"],
+  "extends":[ "@tsconfig/recommended/tsconfig.json", "@tsconfig/esm/tsconfig.json"]
+}
